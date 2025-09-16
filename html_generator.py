@@ -4,7 +4,7 @@ import os
 
 class HTMLGenerator:
     def buat_bukti_pendaftaran_html(self, data_peserta, data_kegiatan):
-        """Membuat bukti pendaftaran dalam format HTML"""
+        """Membuat bukti pendaftaran kegiatan dalam format HTML"""
         
         html_content = f"""
         <!DOCTYPE html>
